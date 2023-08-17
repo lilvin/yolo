@@ -21,3 +21,9 @@ Make sure that you have the following installed:
  `npm start`
 
  ### Go ahead a nd add a product (note that the price field only takes a numeric input)
+
+  ### Docker docs 
+   Added Docker file on client and backend
+   added docker compose file
+   pushed images to docker hub with correct image tagging and naming
+   
