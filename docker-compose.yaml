@@ -2,9 +2,7 @@ version: "3"
 services:
   frontend:
     container_name: client
-    build:
-      context: client
-      dockerfile: Dockerfile
+    image: lilianthiauru/yolo-client:1.0.0 
     depends_on:
       - backend
     stdin_open: true
@@ -12,9 +10,7 @@ services:
        - 4000:4000  
   backend:
     container_name: backend
-    build:
-      context: backend
-      dockerfile: Dockerfile
+    image: lilianthiauru/yolo-backend:1.0.0 
     ports:
        - 6000:6000
     depends_on:
